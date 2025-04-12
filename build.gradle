@@ -1,0 +1,18 @@
+plugins {
+    id 'java'
+}
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    testImplementation 'org.junit.jupiter:junit-jupiter:5.10.0'  // JUnit 5 for testing
+    testImplementation 'io.rest-assured:rest-assured:5.4.0'      // REST Assured for API testing
+    testImplementation 'io.rest-assured:json-schema-validator:5.4.0' // Schema validation
+    testImplementation 'com.sun.mail:javax.mail:1.6.2' // Send email
+}
+
+test {
+    useJUnitPlatform()
+}
