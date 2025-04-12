@@ -21,10 +21,3 @@
 ### Unit Test Results
 
 > Build task will execute tests and publish the results to [***/build/reports/tests/test/index.html***]
-
-
-### Jacoco Test Results
-
-./gradlew test -Denv=dev
-> - Results can be viewed [ ***/build/reports/jacoco/jacocoHtml/index.html***]
-
